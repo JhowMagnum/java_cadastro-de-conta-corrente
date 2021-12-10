@@ -1,23 +1,105 @@
-
+import java.util.Scanner;
 public class Cliente {
 	
-	private Integer agencia = 100;
+	// Agencia do Cliente
+	private int agencia;
+	
+	public int getAgencia() {
+		return agencia;
+	}
+	
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+	}
 
-	private Integer conta = 36567;
+	// Conta do Cliente
+	private int conta;
 	
-	private String cpf = "123.456.788-90";
+	public int getConta() {
+		return conta;
+	}
 	
-	private String nome = "José da Silva";
+	public void setConta (int conta) {
+		this.conta = conta;
+	}
 	
-	private String nascimento = "15/06/1995";
+	// CPF do Cliente
+	private String cpf;
 	
-	private String endereco = "Av. dos autonomistas 234";
+	public String getCpf() {
+		return cpf;
+	}
 	
-	private String telefone = "(11)9123-456 ";
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
 	
-	private Float saldo = 100.0f;
+	// Nome do Cliente
+	private String nome;
 	
-	private String senha = "abc#123";
+	public String getNome() {
+		return nome;
+	}
+	
+	public void setNome (String nome) {
+		this.nome  = nome;
+	}
+	
+	// Data de Nascimento do Cliente
+	private String nascimento;
+	
+	public String getNascimento() {
+		return nascimento;
+	}
+	
+	public void setNascimento(String nascimento) {
+		this.nascimento = nascimento;
+	}
+	
+	// Endereço do Cliente
+	private String endereco;
+	
+	public String getEndereco() {
+		return endereco;
+	}
+	
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+	
+	// Telefone do Cliente
+	private String telefone;
+	
+	public String getTelefone() {
+		return telefone;
+	}
+	
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+	
+	// Saldo do Cliente
+	private float saldo;
+	
+	public float getSaldo() {
+		return saldo;
+	}
+	
+	public void setSaldo(float saldo) {
+		this.saldo = saldo;
+	}
+	
+	// Senha do Cliente
+	private String senha;
+	
+	public String getSenha() {
+		return senha;
+	}
+	
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+	
 	
 	public void MostrarCliente() {
 		
